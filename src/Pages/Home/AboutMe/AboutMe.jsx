@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <Container>
             <section id="about" className="container py-5">
-                <h2 className="text-start text-light mb-4">About</h2>
+                <h2 className="text-center text-light mb-4">About</h2>
                 <ul className="text-start p-0">
                     <li>
                         <p>
