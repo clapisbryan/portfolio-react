@@ -11909,6 +11909,7 @@ ul {
   background-color: transparent;
   color: #ffffff;
   border: 2px solid #ffffff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .card span.featured-proj {
   color: #1dc3ff;
@@ -11916,7 +11917,28 @@ ul {
 .card .card-body {
   padding-bottom: 0;
 }
+.card .icon {
+  transition: stroke 0.3s ease;
+}
+.card:hover {
+  background-color: #3413aa;
+  border-color: #3413aa;
+  margin-bottom: 20px;
+  animation: moveUp 1s forwards;
+}
+.card:hover .icon {
+  stroke: #1dc3ff;
+  stroke-width: 3;
+}
 
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
 .svg {
   stroke: #1dc3ff;
   stroke-width: 3;

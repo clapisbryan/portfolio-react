@@ -42,7 +42,7 @@ const Archive = (props) => {
 					<div className="card-body d-flex flex-column justify-content-center align-items-start">
 						<div className="d-flex flex-row justify-content-between align-items-center mb-3 w-100">
 							<FeatherIcon icon="folder" className={"svg"} />
-							<FeatherIcon icon="arrow-up-right" />
+							<FeatherIcon icon="arrow-up-right" className={"icon"}/>
 						</div>
 						<span className='featured-proj fw-bold'>Featured Project</span>
 						<h3 className="mb-3 fw-bold">{title}</h3>

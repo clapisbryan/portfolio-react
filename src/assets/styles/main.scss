@@ -64,18 +64,44 @@ ul {
 }
 
 .card {
-    background-color: transparent;
-    color: $white;
-		border: 2px solid $white;
+	background-color: transparent;
+	color: $white;
+	border: 2px solid $white;
+	transition: background-color 0.3s ease, border-color 0.3s ease; // Smooth transition for background and border color
 
-		span.featured-proj{
-			color: $primary;
-		}
-		.card-body {
+	span.featured-proj {
+			color: $primary; // Ensure $primary is defined in your SCSS variables
+	}
+
+	.card-body {
 			padding-bottom: 0;
-		}
+	}
+
+	.icon {
+			transition: stroke 0.3s ease; // Smooth transition for stroke color
+	}
+
+	&:hover {
+			background-color: $sub-secondary; // Ensure $sub-secondary is defined in your SCSS variables
+			border-color: $sub-secondary; // Change border color on hover
+			margin-bottom: 20px; // Adjust margin-bottom if needed for the hover effect
+			animation: moveUp 1s forwards; // Apply animation and ensure it persists
+
+			.icon {
+					stroke: $primary; // Change stroke color on hover
+					stroke-width: 3; // Change stroke width on hover
+			}
+	}
 }
 
+@keyframes moveUp {
+	0% {
+			transform: translateY(0);
+	}
+	100% {
+			transform: translateY(-10px); // Add px unit to move the card up
+	}
+}
 .svg{
 	stroke: $primary;
 	stroke-width: 3;
