@@ -18,18 +18,39 @@ const Contact = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if(formValues.comments){
+		console.log(formValues);
+
+		if (formValues.comments) {
+			// Clear form values
+			setFormValues({
+				name: '',
+				email: '',
+				comments: '',
+			});
 			Swal.fire({
 				title: "Message successful",
 				icon: "success",
-				text: "Message was sent." 
+				text: "Message was sent."
 			});
+
+
+			return;
 		} else {
+
+			// Clear form values
+			setFormValues({
+				name: '',
+				email: '',
+				comments: '',
+			});
 			Swal.fire({
 				title: "Message failed",
 				icon: "error",
-				text: "Please provide message" 
+				text: "Please provide message"
 			});
+
+
+			return;
 		}
 	};
 	return (
