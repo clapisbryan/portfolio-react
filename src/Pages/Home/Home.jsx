@@ -6,6 +6,7 @@ import Project from './Project/Project'
 import Built from './Built/Built'
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
+import Tools from './Tools/Tools'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <Banner />
       <AboutMe />
       <Project />
-      <Built />
+      {/* <Built /> */}
+      <Tools />
       <Contact />
       <Footer />
     </div>
