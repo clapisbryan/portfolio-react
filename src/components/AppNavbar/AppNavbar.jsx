@@ -13,7 +13,7 @@ const AppNavbar = () => {
                             animate={{ opacity: 1 }}
                             transition={{ duration: 0.1 }}
                         >
-                            <a className="navbar-brand logo link fw-bold" href="#landing">Bryan Portfolio.</a>
+                            <a className="navbar-brand logo link fw-bold" href="/">Bryan Portfolio.</a>
                         </motion.div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@ const AppNavbar = () => {
                                     transition={{ duration: 0.1 }}
                                     className='nav-item'
                                 >
-                                    <a className="nav-link text-light link active" aria-current="page" href="#landing">Home</a>
+                                    <a className="nav-link text-light link active" aria-current="page" href="/">Home</a>
 
                                 </motion.li>
                                 <motion.li
