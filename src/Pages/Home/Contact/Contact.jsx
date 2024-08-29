@@ -67,7 +67,7 @@ const Contact = () => {
 									>clapisbryan@gmail.com</a>
 								</li>
 								<li className="mb-3 text-break">
-									<a href="tel:09632747000" className="text-light">09632747000</a>
+									<a href="https://github.com/clapisbryan?tab=repositories" className="text-light">Github Public Repo</a>
 								</li>
 							</ul>
 						</div>
