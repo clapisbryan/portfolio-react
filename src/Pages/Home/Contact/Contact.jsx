@@ -64,10 +64,10 @@ const Contact = () => {
 							<ul className="ps-3">
 								<li className="mb-3 text-break">
 									<a href="mailto:clapisbryan@gmail.com" className="text-light"
-									>clapisbryan@gmail.com</a>
+									>Email: clapisbryan@gmail.com</a>
 								</li>
 								<li className="mb-3 text-break">
-									<a href="https://github.com/clapisbryan?tab=repositories" className="text-light">Github Public Repo</a>
+									<a href="https://github.com/clapisbryan?tab=repositories" className="text-light text-decoration-underline">Github: https://github.com/clapisbryan?tab=repositories</a>
 								</li>
 							</ul>
 						</div>
