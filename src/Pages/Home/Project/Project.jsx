@@ -8,7 +8,7 @@ const Project = () => {
 		url: "https://vacaybucks.com/",
 		title: "Vacay Bucks",
 		content: "Vacay Bucks is a subscription-based discount platform, originally developed exclusively for our sister site, Vacay Poker Club (a non-gambling social poker platform launching in April 2024). Due to popular demand, it is now open to everyone. Members enjoy exclusive discounts on hotels, car rentals, restaurants, movie tickets, theme parks and much more. Savings easily surpass the cost of membership.",
-		year: '2023-2024',
+		year: '2022-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -20,7 +20,7 @@ const Project = () => {
 		url: "https://vacaypoker.com/",
 		title: "Vacay Poker Club",
 		content: "Coming Soon Page",
-		year: '2023-2024',
+		year: '2022-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -33,7 +33,7 @@ const Project = () => {
 		url: "https://user.oleplatform.com/dashboard",
 		title: "Ole Platform User",
 		content: `SEND and RECEIVE instantly Access your Ole Platform account easily with safe and secure Ole Platform app. Send and receieve payments from add to anywhere in the world.`,
-		year: '2023-2024',
+		year: '2022-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -46,7 +46,7 @@ const Project = () => {
 		url: "https://admin.oleplatform.com/dashboard",
 		title: "Ole Platform Admin",
 		content: "Manage and oversee transactions, user accounts, and platform operations on Ole Platform to ensure seamless and secure payment experiences globally.",
-		year: '2023-2024',
+		year: '2022-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -82,7 +82,7 @@ const Project = () => {
 			laravel: true,
 			javascript: false
 		}
-	},
+	}, 
 	{
 		url: "https://comvis.fastlogistics.com.ph/",
 		title: "Comvis Fast Logistics ",
