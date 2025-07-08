@@ -9,7 +9,7 @@ import LaravelImg from '../../assets/images/tools/Laravel.png';
 
 const Archive = (props) => {
 
-	const { link = "#", title = "title", content = "content", tools = {}, children } = props;
+	const { link = "#", title = "title", content = "content", tools = {}, year = "", children } = props;
 
 	const [isHtml, setIsHtml] = useState(false);
 	const [isCSS, setIsCSS] = useState(false);
@@ -17,6 +17,7 @@ const Archive = (props) => {
 	const [isReactJS, setIsReactJS] = useState(false);
 	const [isJavascript, setIsJavascript] = useState(false);
 	const [isLaravel, setIsLaravel] = useState(false);
+console.log("props", props);
 
 	useEffect(() => {
 		if (tools.html == true) {
@@ -47,9 +48,12 @@ const Archive = (props) => {
 					<div className="card-body d-flex flex-column justify-content-center align-items-start">
 						<div className="d-flex flex-row justify-content-between align-items-center mb-3 w-100">
 							<FeatherIcon icon="folder" className={"svg"} />
-							<FeatherIcon icon="arrow-up-right" className={"icon"}/>
+							<FeatherIcon icon="arrow-up-right" className={"icon"} />
 						</div>
-						<span className='featured-proj fw-bold'>Featured Project</span>
+						<div className='d-flex flex-column flex-md-row w-100 align-items-center justify-content-between'>
+							<span className='featured-proj fw-bold'>Featured Project</span>
+							<span style={{ fontSize: '14px' }}>{year}</span>
+						</div>
 						<h3 className="mb-3 fw-bold">{title}</h3>
 						<p className='m-0'>{content.substring(0, 120)}...</p>
 						<ul className="use-tools">

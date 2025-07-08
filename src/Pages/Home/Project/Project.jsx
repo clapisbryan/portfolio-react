@@ -8,6 +8,7 @@ const Project = () => {
 		url: "https://vacaybucks.com/",
 		title: "Vacay Bucks",
 		content: "Vacay Bucks is a subscription-based discount platform, originally developed exclusively for our sister site, Vacay Poker Club (a non-gambling social poker platform launching in April 2024). Due to popular demand, it is now open to everyone. Members enjoy exclusive discounts on hotels, car rentals, restaurants, movie tickets, theme parks and much more. Savings easily surpass the cost of membership.",
+		year: '2023-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -19,6 +20,7 @@ const Project = () => {
 		url: "https://vacaypoker.com/",
 		title: "Vacay Poker Club",
 		content: "Coming Soon Page",
+		year: '2023-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -31,6 +33,7 @@ const Project = () => {
 		url: "https://user.oleplatform.com/dashboard",
 		title: "Ole Platform User",
 		content: `SEND and RECEIVE instantly Access your Ole Platform account easily with safe and secure Ole Platform app. Send and receieve payments from add to anywhere in the world.`,
+		year: '2023-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -43,6 +46,7 @@ const Project = () => {
 		url: "https://admin.oleplatform.com/dashboard",
 		title: "Ole Platform Admin",
 		content: "Manage and oversee transactions, user accounts, and platform operations on Ole Platform to ensure seamless and secure payment experiences globally.",
+		year: '2023-2024',
 		tools: {
 			html: true,
 			css: true,
@@ -55,6 +59,7 @@ const Project = () => {
 		url: "https://isecure.ph/",
 		title: "Isecure",
 		content: "We are committed to helping build cyber-resilient communities—from individual consumers to business enterprises—through our valued partners. As a leading cybersecurity-focused distributor in the Philippines, we empower businesses with best-in-class security solutions, expert technical support, and a strong partnership ecosystem.",
+		year: '2024-2025',
 		tools: {
 			html: true,
 			css: true,
@@ -68,6 +73,7 @@ const Project = () => {
 		url: "https://www.gnip-bms.fyd-07.com/",
 		title: "Good Neighbors Admin",
 		content: "Good Neighbors exists to make the world a place without hunger where people live together in harmony.",
+		year: '2024-2025',
 		tools: {
 			html: true,
 			css: true,
@@ -81,6 +87,7 @@ const Project = () => {
 		url: "https://comvis.fastlogistics.com.ph/",
 		title: "Comvis Fast Logistics ",
 		content: "With 50 years of experience, FAST stands at the forefront of end-to-end logistics and supply chain management in the Philippines",
+		year: '2024-2025',
 		tools: {
 			html: true,
 			css: true,
@@ -108,7 +115,7 @@ const Project = () => {
 					{sortedProjects.map((project, index) => {
 						return (
 							<div className="col-12 col-md-6 col-lg-4 mb-4" key={index}>
-								<Archive link={project.url} title={project.title} content={project.content} tools={project.tools} />
+								<Archive link={project.url} title={project.title} content={project.content} year={project.year} tools={project.tools} />
 							</div>
 						)
 					})}
