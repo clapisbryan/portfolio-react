@@ -5,6 +5,7 @@ import CssImg from '../../assets/images/tools/css3.png';
 import BootStrapImg from '../../assets/images/tools/bootstrap.png';
 import ReacJsImg from '../../assets/images/tools/reactjs.png';
 import JavascriptImg from '../../assets/images/tools/javascript.png';
+import LaravelImg from '../../assets/images/tools/Laravel.png';
 
 const Archive = (props) => {
 
@@ -15,6 +16,7 @@ const Archive = (props) => {
 	const [isBootstrap, setIsBootstrap] = useState(false);
 	const [isReactJS, setIsReactJS] = useState(false);
 	const [isJavascript, setIsJavascript] = useState(false);
+	const [isLaravel, setIsLaravel] = useState(false);
 
 	useEffect(() => {
 		if (tools.html == true) {
@@ -25,6 +27,9 @@ const Archive = (props) => {
 		}
 		if (tools.bootstrap == true) {
 			setIsBootstrap(true);
+		}
+		if (tools.laravel == true) {
+			setIsLaravel(true);
 		}
 		if (tools.reactjs == true) {
 			setIsReactJS(true);
@@ -37,7 +42,7 @@ const Archive = (props) => {
 
 	return (
 		<>
-			<a href={link}>
+			<a href={link} target='_blank'>
 				<div className="card py-4 h-100">
 					<div className="card-body d-flex flex-column justify-content-center align-items-start">
 						<div className="d-flex flex-row justify-content-between align-items-center mb-3 w-100">
@@ -62,6 +67,15 @@ const Archive = (props) => {
 								<li className="tool-item">
 									<img
 										src={BootStrapImg}
+										alt=""
+										className="img-fluid"
+									/>
+								</li>
+							}
+							{isLaravel &&
+								<li className="tool-item">
+									<img
+										src={LaravelImg}
 										alt=""
 										className="img-fluid"
 									/>

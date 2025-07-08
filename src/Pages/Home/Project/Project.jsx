@@ -38,8 +38,8 @@ const Project = () => {
 			reactjs: true,
 			javascript: true
 		}
-	}
-		, {
+	},
+	{
 		url: "https://admin.oleplatform.com/dashboard",
 		title: "Ole Platform Admin",
 		content: "Manage and oversee transactions, user accounts, and platform operations on Ole Platform to ensure seamless and secure payment experiences globally.",
@@ -49,6 +49,45 @@ const Project = () => {
 			bootstrap: true,
 			reactjs: true,
 			javascript: true
+		}
+	},
+	{
+		url: "https://isecure.ph/",
+		title: "Isecure",
+		content: "We are committed to helping build cyber-resilient communities—from individual consumers to business enterprises—through our valued partners. As a leading cybersecurity-focused distributor in the Philippines, we empower businesses with best-in-class security solutions, expert technical support, and a strong partnership ecosystem.",
+		tools: {
+			html: true,
+			css: true,
+			bootstrap: true,
+			reactjs: false,
+			laravel: true,
+			javascript: false
+		}
+	},
+	{
+		url: "https://www.gnip-bms.fyd-07.com/",
+		title: "Good Neighbors Admin",
+		content: "Good Neighbors exists to make the world a place without hunger where people live together in harmony.",
+		tools: {
+			html: true,
+			css: true,
+			bootstrap: true,
+			reactjs: false,
+			laravel: true,
+			javascript: false
+		}
+	},
+	{
+		url: "https://comvis.fastlogistics.com.ph/",
+		title: "Comvis Fast Logistics ",
+		content: "With 50 years of experience, FAST stands at the forefront of end-to-end logistics and supply chain management in the Philippines",
+		tools: {
+			html: true,
+			css: true,
+			bootstrap: true,
+			reactjs: false,
+			laravel: true,
+			javascript: false
 		}
 	}
 	]
