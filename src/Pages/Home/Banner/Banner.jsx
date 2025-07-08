@@ -39,7 +39,7 @@ const Banner = () => {
                         transition={{ duration: 0.5, delay: 0.8 }}
                         className="text-secondary fs-6 banner-p"
                     >
-                        I have nearly two years of experience as a Web Developer specializing in React.js, complemented by two months of Back-End experience; I excel at creating user-friendly and responsive web applications leveraging my skills in React.
+                        I have two years of experience as a Web Developer specializing in React.js, complemented by two months of Back-End experience; I excel at creating user-friendly and responsive web applications leveraging my skills in React.
                     </motion.p>
                     <a href="#projects">
                         <motion.button
