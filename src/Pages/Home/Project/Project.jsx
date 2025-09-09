@@ -82,7 +82,7 @@ const Project = () => {
 			laravel: true,
 			javascript: false
 		}
-	}, 
+	},
 	{
 		url: "https://comvis.fastlogistics.com.ph/",
 		title: "Comvis Fast Logistics ",
@@ -96,7 +96,21 @@ const Project = () => {
 			laravel: true,
 			javascript: false
 		}
-	}
+	},
+	{
+		url: "https://portal.lobiengroup.com/",
+		title: "Lobien Realty Group Portal",
+		content: "Lobien Realty Group, Inc. (LRG) is a full-service real estate consultancy and property investments strategy firm specializing in office and commercial space leasing, capital investments optimization, and property acquisition and sales. ",
+		year: '2024-2025',
+		tools: {
+			html: true,
+			css: true,
+			bootstrap: true,
+			reactjs: false,
+			laravel: true,
+			javascript: false
+		}
+	},
 	]
 
 	const indices = projectArrObj.map((_, index) => index);
